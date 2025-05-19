@@ -7,7 +7,10 @@ public class Review4{
         double PI = 3.141592;
         PI = 3.14;
         double cric = 3.14;
-        int a = 10000000000;
-        boolen flg = "true";
+        long a = 1000000000;
+        boolean flg = true;
+        byte b =35;
+        int num = 0x735;
+        char c = 'a';
     }
 }
