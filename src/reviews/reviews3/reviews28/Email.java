@@ -1,4 +1,4 @@
-package reviews.reviews28;
+package reviews.reviews3.reviews28;
 
 public class Email {
     public void send(String to,String body) {

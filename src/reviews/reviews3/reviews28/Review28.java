@@ -1,4 +1,4 @@
-package reviews.reviews28;
+package reviews.reviews3.reviews28;
 
 import java.io.*;
 public class Review28 {
@@ -10,11 +10,11 @@ public class Review28 {
         String subject = br.readLine();
         System.out.print("本文を入力>");
         String body = br.readLine();
-        4;
+        Email email = new Email();
         if(subject.isEmpty()){
-          6;
+          email.send(to,body);
         } else {
-            7;
+            email.send(to,subject,body);
         }
     }
 }
